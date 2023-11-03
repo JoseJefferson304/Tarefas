@@ -3,7 +3,7 @@ import '../../css/slide.css';
 import '../../css/home.css';
 import '../../css/projetos.css';
 import '../../css/sobre.css';
-import ladeslogo from '../../img/lades logo.svg';
+import logo from '../../img/lades logo.svg';
 import lades from '../../img/lades.png';
 import ladesfooter from '../../img/ladesfooter.svg';
 import logoif from '../../img/logoif.svg';
@@ -14,7 +14,7 @@ function Sobre() {
     <div>
       <header>
         <nav>
-          <img width="100px" src={ladeslogo} alt="logo lades" />
+        <a href = "/home"> <img width="100px" src={logo} alt="logo lades" /></a>
           <ul>
             <li>
               <a href="./sobre"> Sobre</a>
@@ -103,10 +103,10 @@ function Sobre() {
     <section class="linha-de-pesquisa">
         <h5>LINHAS DE pesquisa</h5>
 
-        <div class="lpesquisa-geral">
-            <div  class="pesquisa-card" >
+        <div className="lpesquisa-geral">
+            <div  className="pesquisa-card" >
                 <h6>Temas de convergência: Cidades inteligentes</h6>
-                <div class="lorem-card" >
+                <div className="lorem-card" >
                      <p><img width="14px" src={vector}  alt=""/> Lorem ipsum dolor sit amet</p>
                      <p><img width="14px" src={vector}  alt=""/> Lorem ipsum dolor sit amet</p>
                      <p><img width="14px" src={vector}  alt=""/> Lorem ipsum dolor sit amet</p>
@@ -123,9 +123,9 @@ function Sobre() {
 
             </div>
 
-            <div  class="pesquisa-card" >
+            <div  className="pesquisa-card" >
                 <h6>Temas de convergência: Cidades inteligentes</h6>
-                <div class="lorem-card" >
+                <div className="lorem-card" >
                      <p><img width="14px" src={vector}  alt=""/> Lorem ipsum dolor sit amet</p>
                      <p><img width="14px" src={vector}  alt=""/> Lorem ipsum dolor sit amet</p>
                      <p><img width="14px" src={vector}  alt=""/> Lorem ipsum dolor sit amet</p>
@@ -142,9 +142,9 @@ function Sobre() {
 
             </div>
 
-            <div  class="pesquisa-card" >
+            <div  className="pesquisa-card" >
                 <h6>Temas de convergência: Cidades inteligentes</h6>
-                <div class="lorem-card" >
+                <div className="lorem-card" >
                      <p><img width="14px" src={vector}  alt=""/> Lorem ipsum dolor sit amet</p>
                      <p><img width="14px" src={vector}  alt=""/> Lorem ipsum dolor sit amet</p>
                      <p><img width="14px" src={vector}  alt=""/> Lorem ipsum dolor sit amet</p>
@@ -161,9 +161,9 @@ function Sobre() {
 
             </div>
 
-            <div  class="pesquisa-card" >
+            <div  className="pesquisa-card" >
                 <h6>Temas de convergência: Cidades inteligentes</h6>
-                <div class="lorem-card" >
+                <div className="lorem-card" >
                      <p><img width="14px" src={vector}  alt=""/> Lorem ipsum dolor sit amet</p>
                      <p><img width="14px" src={vector}  alt=""/> Lorem ipsum dolor sit amet</p>
                      <p><img width="14px" src={vector}  alt=""/> Lorem ipsum dolor sit amet</p>
@@ -180,9 +180,9 @@ function Sobre() {
 
             </div>
 
-            <div  class="pesquisa-card" >
+            <div  className="pesquisa-card" >
                 <h6>Temas de convergência: Cidades inteligentes</h6>
-                <div class="lorem-card" >
+                <div className="lorem-card" >
                      <p><img width="14px" src={vector}  alt=""/> Lorem ipsum dolor sit amet</p>
                      <p><img width="14px" src={vector}  alt=""/> Lorem ipsum dolor sit amet</p>
                      <p><img width="14px" src={vector}  alt=""/> Lorem ipsum dolor sit amet</p>
@@ -199,9 +199,9 @@ function Sobre() {
 
             </div>
 
-            <div  class="pesquisa-card" >
+            <div  className="pesquisa-card" >
                 <h6>Temas de convergência: Cidades inteligentes</h6>
-                <div class="lorem-card" >
+                <div className="lorem-card" >
                      <p><img width="14px" src={vector}  alt=""/> Lorem ipsum dolor sit amet</p>
                      <p><img width="14px" src={vector}  alt=""/> Lorem ipsum dolor sit amet</p>
                      <p><img width="14px" src={vector}  alt=""/> Lorem ipsum dolor sit amet</p>
@@ -218,9 +218,9 @@ function Sobre() {
 
             </div>
 
-            <div  class="pesquisa-card" >
+            <div  className="pesquisa-card" >
                 <h6>Temas de convergência: Cidades inteligentes</h6>
-                <div class="lorem-card" >
+                <div className="lorem-card" >
                      <p><img width="14px" src={vector}  alt=""/> Lorem ipsum dolor sit amet</p>
                      <p><img width="14px" src={vector}  alt=""/> Lorem ipsum dolor sit amet</p>
                      <p><img width="14px" src={vector}  alt=""/> Lorem ipsum dolor sit amet</p>
@@ -237,9 +237,9 @@ function Sobre() {
 
             </div>
 
-            <div  class="pesquisa-card" >
+            <div  className="pesquisa-card" >
                 <h6>Temas de convergência: Cidades inteligentes</h6>
-                <div class="lorem-card" >
+                <div className="lorem-card" >
                      <p><img width="14px" src={vector}  alt=""/> Lorem ipsum dolor sit amet</p>
                      <p><img width="14px" src={vector}  alt=""/> Lorem ipsum dolor sit amet</p>
                      <p><img width="14px" src={vector}  alt=""/> Lorem ipsum dolor sit amet</p>

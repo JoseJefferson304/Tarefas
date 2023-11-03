@@ -22,7 +22,7 @@ function Home() {
         <body>
           <header>
             <nav>
-              <img width="100px" src= {logo }alt="logo lades" />
+            <a href = "/home"> <img width="100px" src={logo} alt="logo lades" /></a>
               <ul>
                 <li>
                   <a href="./Sobre"> Sobre</a>

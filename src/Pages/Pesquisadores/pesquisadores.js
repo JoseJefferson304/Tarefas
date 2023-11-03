@@ -11,10 +11,10 @@ function Pesquisadores() {
     <>
       <header>
         <nav>
-          <img width="100px" src={logo} alt="logo lades" />
+          <a href = "/home"> <img width="100px" src={logo} alt="logo lades" /></a>
           <ul>
             <li>
-              <a href="/home"> Sobre</a>
+              <a href="/sobre"> Sobre</a>
             </li>
             <li>
               <a href="/pesquisadores"> Pesquisadores</a>
@@ -134,7 +134,7 @@ function Pesquisadores() {
               <button className="lattes">Lattes</button>
             </div>  
           </div>
-          
+
         </section>
       </main>
 
