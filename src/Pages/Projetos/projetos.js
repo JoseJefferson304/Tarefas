@@ -9,7 +9,7 @@ function Projetos() {
     <>
       <header>
         <nav>
-          <img width="100px" src={logo} alt="logo lades" />
+          <a href = "/home"> <img width="100px" src={logo} alt="logo lades" /></a>
           <ul>
             <li><a href="/sobre"> Sobre</a></li>
             <li><a href="/pesquisadores"> Pesquisadores</a></li>
@@ -38,7 +38,7 @@ function Projetos() {
             <br />
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-              industry's standard dummy text ever since the 1500s.
+              industry's standard dummy text ever since the 150s.
             </p>
             <br />
             <button>Veja mais</button>
@@ -55,7 +55,7 @@ function Projetos() {
             <br />
             <button>Veja mais</button>
           </div>
-          
+
           <div className="projeto">
             <h3>Nome do projeto</h3>
             <p>Por: Alessandro Souza </p>
