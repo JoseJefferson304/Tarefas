@@ -1,0 +1,211 @@
+.sectionone {
+    background-image: url(../img/main.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+  }
+  
+  .sectionone div {
+    position: relative;
+    padding: 40px;
+    width: 70%;
+    text-align: left;
+    top: 80px;
+    left: 200px;
+  }
+  
+  .sectionone div h1 {
+    font-family: 'Manrope', Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: 0.06em;
+    font-variant: small-caps;
+    color: #FFFFFF;
+  }
+  
+  .sectionone div p {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.075em;
+    color: #FFFFFF;
+  }
+  
+  .objetivo {
+    text-align: left;
+    padding: 40px;
+    display: flex;
+    width: 100%;
+    background-color: #405059;
+  }
+  
+  .objetivo .objetivo_geral {
+    margin: 0 auto;
+    width: 850px;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+  }
+  
+  .objetivo .objetivo_txt {
+    text-align: left;
+    width: 500px;
+  }
+  
+  .objetivo h2 {
+    font-family: 'Manrope', Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 61px;
+    letter-spacing: 0.06em;
+    font-variant: small-caps;
+    color: #FFFFFF;
+  }
+  
+  .objetivo p {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+  }
+  
+  .conferir h4 {
+    font-family: 'Manrope', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 41px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+  }
+  
+  .conferir p {
+    font-family: 'Belanosima', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 10px;
+    text-align: center;
+    color: #72f1f1;
+  }
+  
+  .conferir {
+    top: 6em;
+    padding-bottom: 10em;
+    position: relative;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 80%;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+  
+  h3 {
+    margin-top: 4em;
+    text-align: center;
+    font-family: 'Manrope', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 41px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    font-variant: small-caps;
+    color: #405059;
+  }
+  
+  .conferir .principal_conferir {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #0C8F8F;
+    border-radius: 100px 100px 0px 0px;
+    padding: 10px;
+  }
+  
+  .conferir .principal_conferir ul {
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+    color: white;
+    font-size: 15px;
+  }
+  
+  .conferir .principal_conferir ul li p {
+    line-height: 40px;
+    color: white;
+    font-size: 15px;
+  }
+  
+  .conferir .principal_conferir button {
+    display: flex;
+    color: #ffffff;
+    background-color: transparent;
+    border: none;
+    position: relative;
+    right: -200px;
+    width: 100px;
+    cursor: pointer;
+  }
+  
+  .nossos-numeros .numeros-principal{
+    top: 3em;
+    position: relative;
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 100px 50px 50px 0px;
+  }
+  
+  .nossos-numeros .numeros-principal div {
+    margin-left: 40px;
+    background-color: #0C8F8F;
+    width: 200px;
+    height: 150px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .nossos-numeros .numeros-principal div span {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 56px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+  }
+  
+  .nossos-numeros .numeros-principal div p {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 56px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+  }
+  
+  .nossos-numeros h6 {
+    top: 150px;
+    position: relative;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 59px;
+    letter-spacing: 0.06em;
+    font-variant: all-small-caps;
+    margin-left: 300px;
+    color: #405059;
+  }
+  
